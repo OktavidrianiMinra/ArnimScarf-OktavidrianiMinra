@@ -1,0 +1,309 @@
+.navbar-brand {
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #8D5B54 !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #D49799 !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #D49799 !important;
+}
+
+/* Hero Section */
+.section-bg {
+  
+}
+
+.hero-section {
+  background-color: #EDE2E6;
+  border-bottom: 3px solid #8D5B54;
+}
+.hero-section h1 {
+    font-family: 'Andika';
+    font-weight: 400;
+    font-size: 52px;
+}
+
+.hero-section p {
+    font-family: 'Andika';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.hero-section .btn {
+  background: #D6837D;
+  border-radius: 0px 20px;   
+  margin-top: 34px; 
+  margin-left: 110px;
+
+  transition: all 0.3s ease;
+}
+
+.hero-section .btn:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 20px;
+
+  transform: scale(1.1);
+}
+
+.hero-section a {
+  font-family: 'Andika';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.hero-section img {
+  z-index: 2;
+  width: 550px;
+  height: 396px;
+  left: 830px;
+  top: 117px;
+}
+
+/* Tutup Hero Section */
+
+.section-title {
+  border-bottom: 3px solid #8D5B54;
+  width: 8%;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Trend Categories */
+.tag {
+  z-index: 3;
+  background: #D6837D;
+  border-radius: 0px 20px;
+
+  padding: 0.25rem 1.25rem;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+.tag span {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #FFFFFF;
+}
+.categories-thumbnail {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+  transform: scale(1.1);
+}
+
+.categories-img {
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: all 0.3s ease;
+
+}
+/* Tutup Trend Categories */
+
+/* Popular Products */
+.popular-products {
+  background: #EDE2E6;
+  padding-top: 28px;
+}
+
+.component-products {
+  margin-top: 24px;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: #000;
+  padding-bottom: 15px;
+
+  transition: all 0.2s ease;
+}
+
+.component-products:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.products-img {
+  padding: 0.5rem;
+  border-radius: 8px 8px;
+  background: #F5F5F5;
+
+  transition: all 0.3s ease;
+}
+
+.products-text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.products-price {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+
+  color: #8D5B54;
+}
+/* Tutup Popular Products */
+
+/* Testimonial */
+.testimonial {
+  padding-top: 140px;
+  padding-bottom: 54px;
+}
+
+.testimonial-img {
+  z-index: 1;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+}
+
+.testimonial-kanan {
+  margin-top: 150px;
+}
+
+.testimonial-text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.testimonial-name {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(141, 91, 84, 0.71);
+}
+
+.btn-testimonial {
+  margin-top: 62px;
+  background: #D6837D;
+  border-radius: 0px 10px;
+
+  width: 216px;
+  height: 54px;
+
+  font-family: 'Andika';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+
+  color: #FFFFFF;
+
+  transition: all 0.3s ease;
+}
+
+.btn-testimonial:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px;
+
+  transform: scale(1.1);
+}
+/* Tutup Testimonial */
+
+/* Footer */
+.footer {
+  margin-top: 154px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #EDE2E6;
+}
+
+.footer h2 {
+  font-family: 'Andika';
+  font-weight: 400;
+  font-size: 36px;
+
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer h5 {
+  font-family: 'Andika';
+  font-weight: 400;
+  font-size: 36px;
+
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #8D5B54;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-small {
+  background: #000000;
+  text-align: center;
+}
+
+.footer-small p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+
+  margin-top: 30px;
+
+  color: #FFFFFF;
+}
+
+.footer-small a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+
+  color: #D6837D;
+}
+/* Tutup Footer */
